@@ -27,8 +27,8 @@ export class AppComponent {
         this.statusBar.styleDefault();
         this.splashScreen.hide();
         // Await some long-running service that needs to occur before initial page loads
-        await this.fooService.doSomethingLong();
-        // Trigger initial navigation
-        this.router.initialNavigation();
+        // await this.fooService.doSomethingLong();
+        // // Trigger initial navigation
+        // this.router.initialNavigation();
     }
 }

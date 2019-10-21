@@ -1,1 +1,9 @@
+.my-button {
+    --color: red;
 
+    ::ng-deep {
+        .button-inner {
+            padding-top: 20px;
+        }
+    }
+}
