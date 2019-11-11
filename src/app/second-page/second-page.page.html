@@ -1,0 +1,13 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>second-page</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    Imaginary Form Status: {{ isFormDirty ? 'Dirty' : 'Clean' }}
+    <ion-button (click)="isFormDirty = !isFormDirty"
+        >Toggle Form Status</ion-button
+    >
+    <ion-button (click)="goBack()">Go Back</ion-button>
+</ion-content>
